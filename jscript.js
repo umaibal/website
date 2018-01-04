@@ -3,12 +3,12 @@
 
 
 //function to open sidebar once hamburger is clicked
-function _open() {
-document.getElementById('sidebar').style.display = "block";
+function open() {
+document.getElementById('sidebar').classList.toggle('active');
 }
 
-
 //function to close the sidebar after opened by user
-function _close() {
+function close() {
 document.getElementById('sidebar').style.display = "none";
+
 }
