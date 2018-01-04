@@ -103,7 +103,6 @@ p {
   font-size: 28px;
 }
 
-<<<<<<< HEAD
 #sidebar {
   color: white;
   width: 200px;
@@ -128,40 +127,10 @@ p {
   list-style: none;
 }
 
-=======
-
-#sidebar {
-  text-align: right;
-  color: white;
-  width: 200px;
-  height: 25%;
-  top: 0px;
-  right: 0px;
-
-  position: absolute;
-  margin: 0px;
-  padding: 0px;
-
-}
-
-#sidebar.active {
-
-
-}
-
-#bar-list {
-  padding: 10px 10px;
-  color: white;
-  /* Remove bullet points to look better */
-  list-style: none;
-}
-
->>>>>>> e0f4ae3cd1a108dde8e4ebb821a1a43e9930dd43
 #sidebar.hamburger-menu {
   position: absolute;
   left: 230px;
   top: 20px;
-<<<<<<< HEAD
 }
 
 #sidebar span {
@@ -170,16 +139,5 @@ p {
   width: 30px;
   height: 5px;
   background: white;
-=======
-
-}
-
-#sidebar.hamburger-menu span {
-  /* Each line will have its own line */
-  display: block;
-  width: 30px;
-  height: 5px;
-  background: red;
->>>>>>> e0f4ae3cd1a108dde8e4ebb821a1a43e9930dd43
   margin: 5px 0px;
 }
