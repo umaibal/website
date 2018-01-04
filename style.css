@@ -85,12 +85,7 @@ body {
 }
 
 #footer {
-  /* Rainbow colored text code */
-  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
   color:white;
-  -webkit-background-clip: text;
-  background-clip: text;
 
   font-family: Trebuchet;
   text-align: top-center;
@@ -104,44 +99,49 @@ body {
 }
 
 p {
-  top: 0;
+  bottom: 0;
   font-size: 28px;
 }
 
-/*p {
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  color: black;
-  font-size: 22;
-} */
 
-.sidebar {
+#sidebar {
   text-align: right;
   color: white;
-  width: 180px;
-  height: 80%;
+  width: 200px;
+  height: 25%;
   top: 0px;
   right: 0px;
 
-  poition: absolute;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+
 }
 
-.sidebar-item:hover {
-color: blue;
-text-decoration: underline;
+#sidebar.active {
+
+
 }
 
-/* Resume and Side projects buttons*/
-.buttons {
-  padding: 20px;
-  font-size: 20px;
-  width: 100px;
-  height: 75px;
-  margin: 5px 5px;
-  border-radius: 50%;
-  background-color: #DDDDDF;
+#bar-list {
+  padding: 10px 10px;
+  color: white;
+  /* Remove bullet points to look better */
+  list-style: none;
+}
+
+#sidebar.hamburger-menu {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+
+}
+
+#sidebar.hamburger-menu span {
+  /* Each line will have its own line */
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: red;
+  margin: 5px 0px;
 }
