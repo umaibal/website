@@ -76,7 +76,7 @@ body {
 
   text-align: center;
 
-  margin-left: 200px;
+  margin: 200px;
   padding: 0px;
 }
 
@@ -103,14 +103,12 @@ p {
   font-size: 28px;
 }
 
-
 #sidebar {
-  text-align: right;
   color: white;
   width: 200px;
-  height: 25%;
-  top: 0px;
-  right: 0px;
+  height: 50%;
+  top: 30px;
+  left: 30px;
 
   position: absolute;
   margin: 0px;
@@ -119,13 +117,12 @@ p {
 }
 
 #sidebar.active {
-
-
+  left: 0px;
 }
 
-#bar-list {
+#sidebar ul li {
   padding: 10px 10px;
-  color: white;
+  color: black;
   /* Remove bullet points to look better */
   list-style: none;
 }
@@ -134,14 +131,13 @@ p {
   position: absolute;
   left: 230px;
   top: 20px;
-
 }
 
-#sidebar.hamburger-menu span {
-  /* Each line will have its own line */
+#sidebar span {
+  /* Each span will have its own line */
   display: block;
   width: 30px;
   height: 5px;
-  background: red;
+  background: white;
   margin: 5px 0px;
 }

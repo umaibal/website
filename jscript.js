@@ -3,7 +3,7 @@
 
 
 //function to open sidebar once hamburger is clicked
-function open() {
+function toggleSidebar() {
 document.getElementById('sidebar').classList.toggle('active');
 }
 
