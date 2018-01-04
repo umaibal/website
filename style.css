@@ -1,0 +1,147 @@
+/*
+umai's css stylesheet
+*/
+
+/* Style social media buttons */
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px 5px;
+}
+
+/* Show icon's colors upon hovering */
+.fa:hover {
+  opacity:0.5;
+}
+
+/* Gmail button */
+.fa-envelope {
+  background:#ff1a1a;
+  color: white;
+}
+/* IG button */
+.fa-instagram {
+  background: #ff6699;
+  color: white;
+}
+
+/* LinkedIn button */
+.fa-linkedin {
+  background: #0066cc;
+  color: white;
+}
+
+/* Facebook button */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* GitHub button */
+.fa-github {
+  background:#262626;
+  color: white;
+}
+
+.fa-bars {
+  font-size: 40px;
+  width: 20px;
+  margin: 5px 5px;
+  border-radius: 0%;
+
+  background:transparent;
+  color: white;
+}
+
+h1 {
+  bottom: 0;
+  color: white;
+}
+
+p, h1, footer {
+  font-family: Trebuchet;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://cdn-media-1.lifehack.org/wp-content/files/2013/04/23-1024x576.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  text-align: center;
+
+  margin-left: 200px;
+  padding: 0px;
+}
+
+#welcome {
+  color: white;
+}
+
+#footer {
+  /* Rainbow colored text code */
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:white;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  font-family: Trebuchet;
+  text-align: top-center;
+  font-size: 45px;
+
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  position: absolute;
+}
+
+p {
+  top: 0;
+  font-size: 28px;
+}
+
+/*p {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: black;
+  font-size: 22;
+} */
+
+.sidebar {
+  text-align: right;
+  color: white;
+  width: 180px;
+  height: 80%;
+  top: 0px;
+  right: 0px;
+
+  poition: absolute;
+}
+
+.sidebar-item:hover {
+color: blue;
+text-decoration: underline;
+}
+
+/* Resume and Side projects buttons*/
+.buttons {
+  padding: 20px;
+  font-size: 20px;
+  width: 100px;
+  height: 75px;
+  margin: 5px 5px;
+  border-radius: 50%;
+  background-color: #DDDDDF;
+}
