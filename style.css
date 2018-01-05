@@ -104,11 +104,7 @@ p {
   font-size: 28px;
   text-decoration: none;
   padding: 14px;
-<<<<<<< HEAD
   margin-right: 210px;
-=======
-  margin-right: 200px;
->>>>>>> f8fb6776deba68f21e581da057a1b9cbc08a3ec8
 }
 
 #sidebar {
@@ -124,27 +120,33 @@ p {
   padding: 15px 10px;
 }
 
-#sidebar ul li {
-<<<<<<< HEAD
+#sidebar ul li, #first {
   font-family: Trebuchet;
-=======
->>>>>>> f8fb6776deba68f21e581da057a1b9cbc08a3ec8
   text-decoration: none;
-  padding: 10px 10px;
+  text-align:left;
+  font-size: 20px;
+  padding: 50% 10px;
   margin: 3px;
-  color: black;
+  color: #D0C3B8;
   /* Remove bullet points to look better */
   list-style: none;
+  /*
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
-  border-left: 1px solid black;
-<<<<<<< HEAD
+  border-left: 1px solid black; */
 }
 
-#sidebar ul li:hover {
+#sidebar #res:hover {
   cursor: pointer;
   color: red;
+}
+
+#first {
+padding: 0;
+font-size: 35px;
+border-top: dashed #D0C3B8;
+border-bottom: dashed #D0C3B8;
 }
 
 #sidebar2{
@@ -159,12 +161,15 @@ p {
   margin: 0px;
   padding: 15px 10px;
 }
+
 #sidebar2 ul li {
   font-family: Trebuchet;
+  font-size: 20px;
   text-decoration: none;
   list-style: none;
   padding: 10px 10px;
-  color: black;
+  color: #D0C3B8;
+  text-align:left;
 }
 
 #breakout{
@@ -177,32 +182,6 @@ p {
 #brains {
   position: absolute;
   right:0;
-  top: 38%;
+  top: 50%;
   right: 1px;
-=======
-}
-
-#sidebar ul li:hover {
-  cursor: pointer;
-  color: red;
-}
-
-#sidebar2{
-  background-color: white;
-  text-align: right;
-  width: 200px;
-  height: 100%;
-  top: 0px;
-  right: 0px;
-
-  position: absolute;
-  margin: 0px;
-  padding: 15px 10px;
-}
-#sidebar2 ul li {
-  text-decoration: none;
-  list-style: none;
-  padding: 10px 10px;
-  color: black;
->>>>>>> f8fb6776deba68f21e581da057a1b9cbc08a3ec8
 }
