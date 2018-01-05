@@ -5,12 +5,15 @@
 //welcome the user with a greeting alert
 //based on the time!
 
-var time = new Date().getHours(); //var of type Date, hour property
+  let today = new Date();//date variable
 
-if(time > 0 && time <= 12) {
-  alert("Good Morning, welcome to my site :)");
-} else if (time > 12 && <= 17) {
-  alert("Good Afternoon, welcome to my site :)");
-} else if (time > 17 && time <= 20) {
-  alert("Good Evening, welcome to my site :)");
-}
+  let hour = today.getHours(); //store hour property
+
+//alert with appropriate greeting using if block
+  if(hour > 0 && hour <= 12) {
+    alert("Good Morning, welcome to my site :)");
+  } else if (hour > 12 && hour<= 17) {
+    alert("Good Afternoon, welcome to my site :)");
+  } else if (hour > 17 && hour <= 20) {
+    alert("Good Evening, welcome to my site :)");
+  }

@@ -143,10 +143,10 @@ p {
 }
 
 #first {
-padding: 0;
-font-size: 35px;
-border-top: dashed #D0C3B8;
-border-bottom: dashed #D0C3B8;
+  padding: 0;
+  font-size: 35px;
+  border-top: dashed #D0C3B8;
+  border-bottom: dashed #D0C3B8;
 }
 
 #sidebar2{
