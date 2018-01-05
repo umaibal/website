@@ -64,7 +64,7 @@ h1 {
   color: white;
 }
 
-p, h1, footer {
+p, h1, .main-title {
   font-family: Trebuchet;
   text-align: center;
   margin-left: 15%;
@@ -85,15 +85,15 @@ body {
   color: white;
 }
 
-#footer {
+.main-title {
   color:white;
 
-  font-family: Trebuchet;
   text-align: top-center;
   font-size: 45px;
 
   right: 0;
-  bottom: 0;
+  top: 0;
+  bottom: 300px;
   left: 0;
   padding: 0;
   position: absolute;
@@ -104,7 +104,11 @@ p {
   font-size: 28px;
   text-decoration: none;
   padding: 14px;
+<<<<<<< HEAD
+  margin-right: 210px;
+=======
   margin-right: 200px;
+>>>>>>> f8fb6776deba68f21e581da057a1b9cbc08a3ec8
 }
 
 #sidebar {
@@ -121,6 +125,10 @@ p {
 }
 
 #sidebar ul li {
+<<<<<<< HEAD
+  font-family: Trebuchet;
+=======
+>>>>>>> f8fb6776deba68f21e581da057a1b9cbc08a3ec8
   text-decoration: none;
   padding: 10px 10px;
   margin: 3px;
@@ -131,6 +139,47 @@ p {
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   border-left: 1px solid black;
+<<<<<<< HEAD
+}
+
+#sidebar ul li:hover {
+  cursor: pointer;
+  color: red;
+}
+
+#sidebar2{
+  background-color: white;
+  text-align: right;
+  width: 200px;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+
+  position: absolute;
+  margin: 0px;
+  padding: 15px 10px;
+}
+#sidebar2 ul li {
+  font-family: Trebuchet;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 10px;
+  color: black;
+}
+
+#breakout{
+  position: absolute;
+  right:0;
+  padding: 2px 1px;
+  margin: 0px;
+}
+
+#brains {
+  position: absolute;
+  right:0;
+  top: 38%;
+  right: 1px;
+=======
 }
 
 #sidebar ul li:hover {
@@ -155,4 +204,5 @@ p {
   list-style: none;
   padding: 10px 10px;
   color: black;
+>>>>>>> f8fb6776deba68f21e581da057a1b9cbc08a3ec8
 }
