@@ -67,6 +67,7 @@ h1 {
 p, h1, footer {
   font-family: Trebuchet;
   text-align: center;
+  margin-left: 15%;
 }
 
 body {
@@ -101,43 +102,57 @@ body {
 p {
   bottom: 0;
   font-size: 28px;
+  text-decoration: none;
+  padding: 14px;
+  margin-right: 200px;
 }
 
 #sidebar {
-  color: white;
+  background-color: white;
+  text-align: left;
   width: 200px;
-  height: 50%;
-  top: 30px;
-  left: 30px;
+  height: 100%;
+  top: 0px;
+  left: 0px;
 
   position: absolute;
   margin: 0px;
-  padding: 0px;
-
-}
-
-#sidebar.active {
-  left: 0px;
+  padding: 15px 10px;
 }
 
 #sidebar ul li {
+  text-decoration: none;
   padding: 10px 10px;
+  margin: 3px;
   color: black;
   /* Remove bullet points to look better */
   list-style: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 }
 
-#sidebar.hamburger-menu {
+#sidebar ul li:hover {
+  cursor: pointer;
+  color: red;
+}
+
+#sidebar2{
+  background-color: white;
+  text-align: right;
+  width: 200px;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+
   position: absolute;
-  left: 230px;
-  top: 20px;
+  margin: 0px;
+  padding: 15px 10px;
 }
-
-#sidebar span {
-  /* Each span will have its own line */
-  display: block;
-  width: 30px;
-  height: 5px;
-  background: white;
-  margin: 5px 0px;
+#sidebar2 ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 10px;
+  color: black;
 }
