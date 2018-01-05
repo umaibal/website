@@ -2,13 +2,15 @@
 //reactions based on user interaction
 
 
-//function to open sidebar once hamburger is clicked
-function toggleSidebar() {
-document.getElementById('sidebar').classList.toggle('active');
-}
+//welcome the user with a greeting alert
+//based on the time!
 
-//function to close the sidebar after opened by user
-function close() {
-document.getElementById('sidebar').style.display = "none";
+var time = new Date().getHours(); //var of type Date, hour property
 
+if(time > 0 && time <= 12) {
+  alert("Good Morning, welcome to my site :)");
+} else if (time > 12 && <= 17) {
+  alert("Good Afternoon, welcome to my site :)");
+} else if (time > 17 && time <= 20) {
+  alert("Good Evening, welcome to my site :)");
 }
