@@ -1,0 +1,195 @@
+/*
+umai's css stylesheet
+*/
+
+/* Style social media buttons */
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+
+  text-align: left;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px 5px;
+}
+
+/* Show icon's colors upon hovering */
+.fa:hover {
+  opacity:0.05;
+}
+
+/* Gmail button */
+.fa-envelope {
+  background:#ff1a1a;
+  color: white;
+}
+/* IG button */
+.fa-instagram {
+  background: #ff6699;
+  color: white;
+}
+
+/* LinkedIn button */
+.fa-linkedin {
+  background: #0066cc;
+  color: white;
+}
+
+/* Snapchat button */
+.fa-snapchat-square {
+  background: yellow;
+  color: white;
+}
+
+/* Facebook button */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* GitHub button */
+.fa-github {
+  background:#262626;
+  color: white;
+}
+
+.fa-bars {
+  font-size: 40px;
+  width: 20px;
+  margin: 5px 5px;
+  border-radius: 0%;
+
+  background:transparent;
+  color: white;
+}
+
+h1 {
+  bottom: 0;
+  color: white;
+}
+
+p, h1, .main-title {
+  font-family: Trebuchet;
+  text-align: center;
+  margin-left: 15%;
+}
+
+body {
+  background-image: url("https://cdn-media-1.lifehack.org/wp-content/files/2013/04/23-1024x576.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  text-align: center;
+
+  margin: 200px;
+  padding: 0px;
+}
+
+#welcome {
+  color: white;
+}
+
+.main-title {
+  color:white;
+
+  text-align: top-center;
+  font-size: 45px;
+
+  right: 0;
+  top: 0;
+  bottom: 300px;
+  left: 0;
+  padding: 0;
+  position: absolute;
+}
+
+p {
+  bottom: 0;
+  font-size: 28px;
+  text-decoration: none;
+  padding: 14px;
+  margin-right: 210px;
+}
+
+#sidebar {
+  background-color: white;
+  text-align: left;
+  width: 200px;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+
+  opacity: 0.8;
+  position: absolute;
+  margin: 0px;
+  padding: 15px 10px;
+}
+
+#sidebar ul li, #first {
+  font-family: Trebuchet;
+  text-decoration: none;
+  text-align:left;
+  font-size: 20px;
+  padding: 50% 10px;
+  margin: 3px;
+  color: #D0C3B8;
+  /* Remove bullet points to look better */
+  list-style: none;
+  /*
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black; */
+}
+
+#sidebar #res:hover {
+  cursor: pointer;
+  color: red;
+}
+
+#first {
+  padding: 0;
+  font-size: 35px;
+  border-top: dashed #D0C3B8;
+  border-bottom: dashed #D0C3B8;
+}
+
+#sidebar2{
+  background-color: white;
+  text-align: right;
+  width: 200px;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+
+  opacity: 0.8;
+  position: absolute;
+  margin: 0px;
+  padding: 15px 10px;
+}
+
+#sidebar2 ul li {
+  font-family: Trebuchet;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 10px;
+  color: #D0C3B8;
+  text-align:left;
+}
+
+#breakout{
+  position: absolute;
+  right:0;
+  padding: 2px 1px;
+  margin: 0px;
+}
+
+#brains {
+  position: absolute;
+  right:0;
+  top: 50%;
+  right: 1px;
+}
